@@ -13,9 +13,9 @@ int main(void)
 		putchar ('az');
 		az++;
 	}
-	char az = 'A'
+	char AZ = 'A'
 
-	while (az <= Z)
+	while (AZ <= Z)
 	{
 		putchar ('az')
 		az++
