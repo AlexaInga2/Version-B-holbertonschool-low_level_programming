@@ -3,22 +3,15 @@
  * main- entry point
  *
  * Return: always 0 (success)
-*/
+ */
 int main(void)
 {
-	char az = 'a';
+	char a;
 
-	while (az <= z)
+	while (a <= 9)
 	{
-		putchar ('az');
-		az++;
-	}
-	char az = 'A'
-
-	while (az <= Z)
-	{
-		putchar ('az')
-		az++
+		putchar (a);
+		a++;
 	}
 	putchar ('\n');
 	return (0);

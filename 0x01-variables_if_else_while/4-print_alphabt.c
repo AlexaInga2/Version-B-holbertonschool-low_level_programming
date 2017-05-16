@@ -6,15 +6,16 @@
 */
 int main(void)
 {
-        char n = 'a';
-        while (n <= z)
-        {
+	char n = 'a';
+
+	while (n <= z)
+	{
 		if ((n != 'q') && (n != 'e'))
 		{
 			putchar('n');
-                	n++;
-        	}
+			n++;
+		}
 	}
 	putchar('\n');
-        return (0);
+	return (0);
 }

@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * main- entry point
  *
@@ -6,16 +6,16 @@ include <stdio.h>
 */
 int main(void)
 {
-        char n = 'a';
-        while (n <= z)
-        {
-                if ((n != 'q') && (n != 'e'))
-                {
-                        putchar('n');
-                        n++;
-                }
-        }
-        putchar('\n');
-        return (0);
-}
+	char n = 'a';
 
+	while (n <= z)
+	{
+		if ((n != 'q') && (n != 'e'))
+		{
+			putchar('n');
+			n++;
+		}
+	}
+	putchar('\n');
+	return (0);
+}
