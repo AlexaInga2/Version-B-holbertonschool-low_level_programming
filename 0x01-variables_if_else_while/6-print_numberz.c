@@ -1,16 +1,16 @@
-include <stdio.h>
+#include <stdio.h>
  
-int main (void) 
+int main(void) 
 {
    /* local variable definition */
-   int a = 0;
+   int a = '0';
 
    /* while loop execution */
-   while( a <= 9 )
+   while (a <= '9')
    {
-      putchar ('a');
+      putchar(a);
       a++;
    }
-   putchar ('\n');
-   return 0;
+   putchar('\n');
+   return (0);
 }

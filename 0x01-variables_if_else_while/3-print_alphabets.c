@@ -6,18 +6,19 @@
 */
 int main(void)
 {
-        char az = 'a';
-        while ( az <= z )
-        {
-                putchar ('az');
-                az++;
-        }
-	char az = 'A'
-	while (az <= Z )
+	char az = 'a';
+	char AZ = 'A';
+
+	while (az <= 'z')
 	{
-		putchar ('az')
-		az++
-        }
-	putchar ('\n');
-        return (0);
+		putchar(az);
+		az++;
+	}
+	while (AZ <= 'Z')
+	{
+		putchar(AZ);
+		AZ++;
+	}
+	putchar('\n');
+	return (0);
 }
