@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * is_lower - Check lowercase letters and  is greater than 0
- * @c: The number to be checked
+ * _islower - Check lowercase letters, if not return 1 or else  0
+ * @c: The letter to be checked
  *
  * Return: 1 if the number is positive. 0 otherwise
  */
