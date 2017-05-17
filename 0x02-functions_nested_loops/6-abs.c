@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdlib.h>
 /**
  * _abs - checks absolute value of integers
  * @v: integer to be checked
