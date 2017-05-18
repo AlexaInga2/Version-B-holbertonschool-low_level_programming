@@ -1,12 +1,13 @@
-#include "holberton.h"
 /**
- * _abs - checks absolute value of integers
- * @v: integer to be checked
+ * _abs - find the absolute value
+ * @v: defines the integer
  *
- * Return: v
+ * Return: the absolute value
  */
 int _abs(int v)
 {
-	return (v * (v < 0) * (-1) + (v > 0));
-	return (v);
+	if (v < 0)
+		return (v * -1);
+	else
+		return (v);
 }
