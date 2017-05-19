@@ -4,17 +4,18 @@
  */
 void more_numbers(void)
 {
-	char r = 0, a;
+	int i, numb, tens, ones;
 
-	while (r < 10)
+	for (i = 0; i < 10; i++)
 	{
-		a = '0';
-		while (a >= 14)
+		for (numb = 0; numb <= 14; numb++)
 		{
-			_putchar(a);
-			a++;
+			tens = numb / 10;
+			ones = numb % 10;
+			if (tens > 0)
+				_putchar('0' + tens);
+			_putchar('0' + ones);
 		}
-		r++;
 		_putchar('\n');
 	}
 }
