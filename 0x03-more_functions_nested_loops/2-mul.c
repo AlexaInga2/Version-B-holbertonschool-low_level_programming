@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
- * op_add - Makes the sum of two numbers
- * @arg1: First operand
- * @arg2: Second operand
+ * mul - Makes the sum of two numbers
+ * @a: First operand
+ * @b: Second operand
  *
- * Return: The sum of the two parameters
+ * Return: The sum of a and b
  */
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
