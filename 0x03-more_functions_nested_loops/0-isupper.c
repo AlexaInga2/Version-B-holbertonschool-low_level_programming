@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * i_supper - check for a uppercase letter
+ * _isupper - check for a uppercase letter
  * @c: the character to be checked
  * Return: 1 if the character c falls into the tested class, 0 if not
  */
