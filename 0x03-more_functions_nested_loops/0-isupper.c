@@ -2,7 +2,7 @@
 /**
  * i_supper - Check for a uppercase letter
  * @c: The character to be checked
- * Return: nonzero if the character c falls into the tested class, 0 if not
+ * Return: 1 if the character c falls into the tested class, 0 if not
  */
 int _isupper(int c)
 {
