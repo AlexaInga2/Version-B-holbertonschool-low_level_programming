@@ -20,4 +20,5 @@ void print_diagonal(int n)
 	}
 	else/* if a is less than 0, it just prints new line */
 		_putchar('\n');
+
 }
