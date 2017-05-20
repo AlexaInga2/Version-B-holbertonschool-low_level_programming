@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 1; n <= 100; n++)
 	{
-		if ((n % 3) && (n % 5) == 0) /*n has2b =0,n/perfect#,rem0=mult*/
+		if ((n % 3) == 0 && (n % 5) == 0) /*look at below comments*/
 			printf("FizzBuzz");
 		else if ((n % 3) == 0) /*6/3=3,making % 0. so its a multiplier*/
 			printf("Fizz");
