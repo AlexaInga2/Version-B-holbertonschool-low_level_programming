@@ -1,17 +1,18 @@
+
 #include "holberton.h"
 /**
- * _puts - write string to stdou
- * @str: The string
- *
- * Return: 1 if the number is positive. 0 otherwise
+ * print_rev - reverse the quote
+ * @s: The string
+ * @a: we need another variable to subtract i (the string)to reverse
+ * Return: quote in reverse
  */
 void print_rev(char *s)
 {
-        int i, a;
+	int i, a;
 
-        for (i = 0; s[i]; i++)
+	for (i = 0; s[i]; i++)
 	{
- 	} /** enters and ends loop */
+	} /** enters and ends loop */
 	for (a = (i - 1); a >= 0; a--)
 		_putchar(s[a]);
 	_putchar('\n');
