@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * _puts - Check if a number is greater than 0
- * @str: The number to be checked
+ * _puts - write string to stdout
+ * @str: The string
  *
  * Return: 1 if the number is positive. 0 otherwise
  */
