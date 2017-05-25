@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * is_positive - Check if a number is greater than 0
+ * print_array - print the n elements
  * @a: The pointer
  * @n:the element to be checked
  * Return: 1 if the number is positive. 0 otherwise
