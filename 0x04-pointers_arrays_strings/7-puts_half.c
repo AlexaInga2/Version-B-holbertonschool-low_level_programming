@@ -2,8 +2,6 @@
 /**
  * puts_half - print half of the string
  * @str: The string
- *
- * Return: half of the string
  */
 void puts_half(char *str)
 {

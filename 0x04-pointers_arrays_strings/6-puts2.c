@@ -1,6 +1,10 @@
 #include "holberton.h"
-
-
+/**
+ * puts2 - print every other number
+ * @str: The string to be checked
+ *
+ * Return: 1 if the number is positive. 0 otherwise
+ */
 void puts2(char *str)
 {
 	int i;
