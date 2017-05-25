@@ -1,0 +1,21 @@
+#include "holberton.h"
+/**
+ * rev_string - reverse the string "Holberton"
+ * @s: The string to be reversed
+ *
+ * Return: reverse string
+ */
+void rev_string(char *s)
+{
+        int i, a;
+	char hol[10];
+	i = 0;
+	a = 0;
+
+        for (i = 0; s[i]; i++)
+        {
+        } /** enters and ends loop */
+        for (a = (i - 1); a >= 0; a--);
+	_putchar(s[a]);
+        _putchar('\n');
+}
