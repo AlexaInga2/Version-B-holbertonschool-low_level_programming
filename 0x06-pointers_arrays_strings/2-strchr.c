@@ -4,7 +4,7 @@
  * @s: the string
  * @c: the character
  *
- * Return: pointer in string, or null
+ * Return:  s, or null
  */
 char *_strchr(char *s, char c)
 {
@@ -15,5 +15,7 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 			return (s + i);
 	}
+	if (s[i] == c)
+		return (s + i);
 	return (0);
 }
