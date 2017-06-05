@@ -1,12 +1,8 @@
 #include "holberton.h"
-/**                                              \
-                                                  
- * _puts_recursion - prints string               \
-                                                  
- * @s: the string                                \
-                                                  
- *                                               \
-                                                  
- * Return: nothing                               \
-                                                  
+/**
+ * _strlen_recursion - prints a string followed by a new line
+ * @s: string to print
+ *
+ * Return: void
  */
+int _strlen_recursion(char *s)
