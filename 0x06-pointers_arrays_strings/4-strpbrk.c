@@ -1,0 +1,24 @@
+#include "holberton.h"
+/**
+ * _strpbrk - searches a string for any of a set of bytes
+ * @s: first string
+ * @accept: Second string
+ *
+ * Return: s
+ */
+char *_strpbrk(char *s, char *accept)
+{
+	int i, a;
+
+	for (i = 0; s[i]; i++)
+	{
+		for (a = 0; accept[a]; a++)
+		{
+			if (s[i] == accept[a])
+				break;
+		}
+		if (accept[a])
+			return (s + i);
+	}
+	return (0);
+}
