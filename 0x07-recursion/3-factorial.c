@@ -6,3 +6,4 @@
  *
  * Return: void
  */
+int factorial(int n)
