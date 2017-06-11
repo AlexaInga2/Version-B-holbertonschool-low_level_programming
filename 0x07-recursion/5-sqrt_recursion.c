@@ -1,8 +1,8 @@
 #include "holberton.h"
-
 /**
- * _puts_recursion - prints a string followed by a new line
- * @s: string to print
+ * _sqrt_recursion - prints a string followed by a new line
+ * @n: string to print
  *
- * Return: void
+ * Return: -1 if n ! have natural sq root
  */
+int _sqrt_recursion(int n)
