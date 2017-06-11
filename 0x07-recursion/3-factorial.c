@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * _puts_recursion - prints a string followed by a new line
- * @s: string to print
+ * factorial - returns factorial of given #
+ * @n: integer to find factorial
  *
- * Return: void
+ * Return: factorial of n, -1 if n<0, 1 if n==0
  */
 int factorial(int n)
 {
