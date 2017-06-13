@@ -2,7 +2,7 @@
 /**
  * _pow_recursion - prints a string followed by a new line
  * @x: string to print
- * @y
+ * @y: raising the power
  * Return: -1 if y < 0
  */
 int _pow_recursion(int x, int y)
