@@ -1,8 +1,9 @@
 #include "variadic_functions.h"
 /**
  * sum_them_all - sum of all the parameters w/i the elipsies
- * @n: 
+ * @n: first parameter
  *
+ * Return: sum of all parameter
  */
 int sum_them_all(const unsigned int n, ...)
 {
