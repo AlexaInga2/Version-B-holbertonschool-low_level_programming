@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -S $CFILE
+
+//generates the assembly code of a C code & saves it in a output file 

@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -E $CFILE -o c
+
+/** runs a C file thru the preprocessor & saves results into another 
+file name */

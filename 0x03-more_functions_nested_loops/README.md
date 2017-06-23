@@ -1,1 +1,0 @@
-These tasks are dedicated to discovering more functions and nested loops.
