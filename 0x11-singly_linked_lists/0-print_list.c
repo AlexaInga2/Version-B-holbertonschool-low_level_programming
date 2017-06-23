@@ -1,6 +1,5 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 /**
  * print_list - prints all the elements of a list_t list
  * @h: pointer to the first spot/start of the list
@@ -15,7 +14,10 @@ size_t print_list(const list_t *h)
 	temp = h;
 	for (i = 0; temp; i++)
 	{
-		printf("[%u] %s\n", temp->len, temp->str);
+		if (temp->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", temp->len, temp->str);
 		temp = temp->next;
 	}
 	return (i);
