@@ -1,15 +1,22 @@
 #include <stdio.h>
- 
+
+/**
+ * main - Entry point
+ *
+ * Description - Prints consecutive base 10 ints under 10
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void) 
 {
    /* local variable definition */
-   int a = '0';
+  int i = 48;
 
    /* while loop execution */
-   while (a <= '9')
+   while (i < 58)
    {
-      putchar(a);
-      a++;
+      putchar(i);
+      i++;
    }
    putchar('\n');
    return (0);

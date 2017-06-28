@@ -2,12 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
- *lastn - last digit of n
- *if ... else statement return on function
- *Return: 0  
+ * main - Entry point
+ * 
+ * Return: 0  
  */
-
 int main(void)
 {
   int n;
@@ -15,19 +13,19 @@ int main(void)
 
   srand(time(0));
   n = rand() - RAND_MAX / 2;
-  ln = n % 10;
   
-   if (ln > 5)
-     {
-       printf("Last digit of %d is %d and is greater than 5\n", n, ln );
-     }
-   else if(ln == 0)
-     {
-       printf("Last digit of %d is %d and is 0\n", n, ln);
-     }
-   else
-     {
-       printf("Last digit of %d is %d and is less than 6 and !0\n", n,ln );
-     }
-	return (0);
+  ln = n % 10;
+  if (ln > 5)
+    {
+      printf("Last digit of %i is %i and is greater than 5\n", n, ln );
+    }
+  else if(ln == 0)
+    {
+      printf("Last digit of %i is %i and is 0\n", n, ln);
+    }
+  else
+    {
+      printf("Last digit of %i is %i and is less than 6 and not 0\n", n, ln);
+    }
+  return (0);
 }

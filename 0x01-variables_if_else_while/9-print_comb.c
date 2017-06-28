@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -6,13 +7,17 @@
  */
 int main(void)
 {
-  char rev;
-
-  rev = 'z';
-  while (rev >= 'a')
+  int i = 48;
+  
+  while (i < 58)
     {
-      putchar(rev);
-      rev--;
+      putchar(i);
+      if (i != 57)
+	{
+	  putchar(',');
+	  putchar(32);
+	}
+      i++;
     }
   putchar('\n');
   return (0);
