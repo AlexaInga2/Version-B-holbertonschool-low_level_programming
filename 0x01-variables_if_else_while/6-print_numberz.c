@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -7,17 +6,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) 
+int main(void)
 {
-   /* local variable definition */
-  int i = 48;
-
-   /* while loop execution */
-   while (i < 58)
-   {
-      putchar(i);
-      i++;
-   }
-   putchar('\n');
-   return (0);
+	/* local variable definition */
+	int i = 48;
+	/* while loop execution */
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
