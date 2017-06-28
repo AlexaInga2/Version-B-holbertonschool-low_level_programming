@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	int i
+	int sdn = 48;
 
-	i = 48;
-	while (i < 58)
+	while (sdn < 58)
 	{
-		putchar(i);
-		if (i != 57)
+		putchar(sdn);
+		if (sdn != 57)
 		{
 			putchar(',');
 			putchar(32);
+			sdn++;
 		}
 		else
-			i++;
+			sdn++;
 	}
 	putchar('\n');
 	return (0);
