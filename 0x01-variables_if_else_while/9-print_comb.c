@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -7,18 +8,20 @@
  */
 int main(void)
 {
-  int i = 48;
-  
-  while (i < 58)
-    {
-      putchar(i);
-      if (i != 57)
+	int sdn = 48;
+
+	while (sdn < 58)
 	{
-	  putchar(',');
-	  putchar(32);
+		putchar(sdn);
+		if (sdn != 57)
+		{
+			putchar(',');
+			putchar(32);
+			sdn++;
+		}
+		else
+			sdn++;
 	}
-      i++;
-    }
-  putchar('\n');
-  return (0);
+	putchar('\n');
+	return (0);
 }
