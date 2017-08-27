@@ -72,5 +72,33 @@ void print_f(va_list f)
  */
 void print_all(const char * const format, ...)
 {
-        print_all[] = ("c", print_c)("s", print_s)("i", print_i)("f", print_f)
-}
+  int i, j;
+
+  print_all[] = {
+    ("c", print_c),
+    ("s", print_s),
+    ("i", print_i),
+    ("f", print_f),
+    (NULL, NULL)
+  };
+  va_list list;
+  char *separator = "";
+
+  va_start(list, format);
+  i = 0;
+  while (format && format[i])
+    {
+      j = 0;
+      while (all[j].t != NULL) // calling 'TYPE' (.t) from list
+	{
+	  if (*(all[j] == format[i])
+	    {
+	      printf("%s", separator);
+	      p[j].f(list) // calling 'FUNCTION' (.f) from list
+	    }
+
+
+	      }
+
+
+    }
