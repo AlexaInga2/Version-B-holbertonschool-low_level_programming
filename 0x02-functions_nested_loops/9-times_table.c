@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * times_table - prints the 9 times table, starting with 0
  *
@@ -19,8 +20,6 @@ void times_table(void)
 			_putchar(n / 10 ? n / 10 + '0' : ' ');
 			_putchar(n % 10 + '0');
 			_putchar(',');
-			if (j < 9)
-				_putchar(',');
 		}
 	}
 
