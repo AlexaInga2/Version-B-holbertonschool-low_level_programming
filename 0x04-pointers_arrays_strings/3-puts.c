@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * _puts - write string to stdout
+ * _puts - prints a string to stdout
  * @str: The string
  *
- * Return: 1 if the number is positive. 0 otherwise
+ * Return: void
  */
 void _puts(char *str)
 {
