@@ -19,3 +19,5 @@ void print_to_98(int n)
 	}
 	printf("98\n");
 }
+
+/** also can combine if/else by: (n < 98 ? n++ : n--) */
